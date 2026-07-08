@@ -1,0 +1,19 @@
+{
+  "_comment": "Copy to config.json and edit. Secrets (bot token, chat ids, API keys) live in .env, NOT here. Each group: id (@username or numeric chat id), human name, type, enabled flag, and which reader account to use.",
+  "groups": [
+    { "id": "@example_ai_automation", "name": "AI & Automation", "type": "group", "enabled": true, "account": 1 },
+    { "id": "@example_n8n_community", "name": "n8n Community", "type": "group", "enabled": true, "account": 1 },
+    { "id": "@example_python_chat", "name": "Python Chat", "type": "group", "enabled": true, "account": 1 },
+    { "id": "@example_scraping", "name": "Web Scraping / Parsing", "type": "group", "enabled": true, "account": 1 },
+    { "id": "@example_bot_devs", "name": "Telegram Bot Developers", "type": "group", "enabled": true, "account": 1 },
+    { "id": "@example_freelance", "name": "Freelance Chat", "type": "group", "enabled": true, "account": 1 },
+    { "id": "@example_nocode", "name": "No-Code / Low-Code", "type": "group", "enabled": true, "account": 1 },
+    { "id": "@example_crm_chat", "name": "CRM Integrations Chat", "type": "group", "enabled": false, "account": 1 },
+    { "id": "@example_entrepreneurs", "name": "Entrepreneurs / Business Chat", "type": "group", "enabled": true, "account": 1 },
+    { "id": "-1000000000000", "name": "A group referenced by numeric id", "type": "group", "enabled": false, "account": 1 }
+  ],
+  "scan_interval_minutes": 15,
+  "messages_per_scan": 30,
+  "min_message_length": 15,
+  "tg_user_path": "/path/to/telegram-user-client/dist/tg-user.js"
+}
